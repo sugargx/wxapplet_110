@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="container {{ocp}}">
+  <view class='position'>
+    tubiao | 淄博市 张店区 tu
+  </view>
+  <view class="sos" bindtap="baojing">
+    <view class='font'>SOS</view>
+  </view>
+  <view class='introduce'>
+    如遭遇紧急情况请立即按下此按钮
+  </view>
+
+  <view class="tab">
+    <view class="nav">
+      <view class="{{selected0?'red':'default'}}" bindtap="selected0">附近报警地点</view>
+      <view class="{{selected1?'red':'default'}}" bindtap="selected1">其他报警方式</view>
+      <view class="{{selected2?'red':'default'}}" bindtap="selected2">历史报警记录</view>
+    </view>
+    <view class="{{selected0?'show':'hidden'}}">
+      <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location='true' markers='{{points}}' controls='true'></map>
+    </view>
+    <view class="{{selected1?'show':'hidden'}}">
+      <view class='ways' bindtap='chooseimage'>
+        <image src='../../images/shipin.png' class='image'></image>
+        <span class="big">在线视频连接警方</span>
+        <span class="small">（帮助了解现场）</span>
+      </view>
+      <view class='ways'  bindtap="chooseimage">
+        <image src='../../images/yinpin.png' class='image'></image>
+        <span class="big">音频信息上传警方</span>
+        <span class="small">（提供视频证据）</span>
+      </view>
+      <view class='ways' bindtap="type3">
+        <image src='../../images/tuwen.png' class='image'></image>
+        <span class="big">图文信息上传警方</span>
+        <span class="small">（提供图片证据）</span>
+      </view>
+    </view>
+    <view class="{{selected2?'show':'hidden'}}">
+      <view class='ways'>
+        2018-05-13 13:29:24
+      </view>
+      <view class='ways'>
+        2018-05-13 13:29:24
+      </view>
+      <view class='ways'>
+        2018-05-13 13:29:24
+      </view>
+    </view>
+  </view>
+</view>
+  <view class='page-abs' style="display:{{abs}}">
+  <view class='absolute'>
+    <view class='tips-top'>
+      正在尝试与警方联系...
+    </view>
+    <view class="sos-blue" bindtap=''>
+      SOS
+    </view>
+    <view class='tips-bottom' bindtap='quxiao'>
+    一分钟内点此可取消</view>
+  </view>
+  </view>

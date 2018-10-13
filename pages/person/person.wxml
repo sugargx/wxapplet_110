@@ -1,0 +1,48 @@
+<view class="content">
+
+  <view class="main body">
+    <image src="/images/icon-person.png"></image>
+    <view class='name'>我是姓名</view>
+  </view>
+
+  <view class="head body weui-cell__bd ss" bindtap="goto" id="xia">
+    <image class="ic" src="/images/icon-person.png" id="myxinxi"></image>
+    <view  class="s1" id="wanshan"> <navigator url="../info/info" >个人信息</navigator> </view>
+    <view class=" weui-cell__ft weui-cell__ft_in-access  right1">
+      <view hidden="">(请完善个人信息)</view>
+    </view>
+  </view>
+  <!--横线  -->
+  <view class="xian"></view>
+
+  <view class="head body ss" bindtap="" id="dd">
+    <image class="ic" src="/images/icon-person.png"></image>
+    <view class="s1">通知信息</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access right1"></view>
+  </view>
+
+  <view class="head body ss" bindtap="" id="dd">
+    <image class="ic" src="/images/icon-person.png"></image>
+    <view class="s1">我的收藏</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access right1"></view>
+  </view>
+
+  <view class="head body ss" bindtap="" id="dd">
+    <image class="ic" src="/images/icon-person.png"></image>
+    <view class="s1">浏览记录</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access right1"></view>
+  </view>
+
+  <view class="head body ss" bindtap="" id="shang1">
+    <image class="ic" src="/images/icon-person.png"></image>
+    <view class="s1">个性设置</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  right1"></view>
+  </view>
+
+  <view class="head body ss" bindtap="" id="shang1">
+    <image class="ic" src="/images/icon-person.png"></image>
+    <view class="s1">了解程序</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access  right1"></view>
+  </view>
+
+</view>

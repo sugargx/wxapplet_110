@@ -1,0 +1,2 @@
+/*用相对路径*/
+@import"../before_first.wxss";

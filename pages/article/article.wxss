@@ -1,0 +1,12 @@
+.weui-article__h1{
+  text-align:center;
+}
+.weui-article__p image{
+  width: 100%;
+}
+.weui-article__title{
+  text-align: center;
+  color: #888;
+  margin-top: -30rpx;
+  margin-bottom: 20rpx;
+}

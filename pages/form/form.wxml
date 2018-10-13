@@ -1,0 +1,23 @@
+<!--pages/form/form.wxml-->
+<view class='container'>
+  <view class="title font_second">
+    图文信息上传警方（提供图片证据）
+  </view>
+  <view class='box photo'>
+     <view class='cellbox_1'>
+      <span>图片</span>
+      <button  class='btn' size='mini' bindtap='chooseimage'>选择图片</button>
+     </view>
+  </view>
+   <view class='box description'>
+    <view class='cellbox_2'>
+      <span>文字描述</span>
+      <textarea name = "textarea" placeholder='请输入详情'></textarea>
+    </view>
+   </view> 
+   <view class='box btn_box'>
+    <button class='btn' type='warn'>报警</button>
+    <button class='btn' bindtap='ret'>取消</button>
+  </view> 
+</view>
+<!-- <text>pages/form/form.wxml</text> -->

@@ -1,0 +1,70 @@
+<view class="page">
+  <!--页头-->
+  <view class="page__hd"></view>
+  <!--主体-->
+  <view class="page__bd">
+     <view class="weui-cells__title">请修改您的个人信息</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label" >姓名</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input"  placeholder="请输入姓名"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">身份证号</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input"  placeholder="请输入合法的身份证号"/>
+                </view>
+            </view>
+             <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">家庭住址</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input"  placeholder="请输入您的家庭住址"/>
+                </view>
+            </view>
+             <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">工作/学习地址</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input"  placeholder="请输入您的工作/学习住址"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">手机号</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="输入手机号" />
+                </view>
+                <view class="weui-cell__ft">
+                    <view class="weui-vcode-btn">获取验证码</view>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">验证码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入验证码" />
+                </view>
+                <view class="weui-cell__ft">
+                    <image class="weui-vcode-img" src="../images/vcode.jpg" style="width: 108px"></image>
+                </view>
+            </view>
+            <view class='page__bd page__bd_spacing'>
+                 <button class='weui-btn weui-btn_primary'>
+                 确定
+                 </button>
+            </view>
+        </view>
+
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view>
+   <view class='font'>
+     <view class='font_first'>想了解法律小知识时</view>
+     <view class='font_second'>论坛入驻警察小哥哥</view>
+     <view class='font_second'>推送有趣的防卫、法律知识</view>
+     <view class='font_third'>更多有趣有料的内容等您探索</view>
+   </view>
+   <view class='button'>
+     <view class='button_apply'>
+       <button type='primary'>注   册</button> 
+     </view>
+     <view class='button_login'>
+       <button value=" ">登   录</button>
+     </view>
+   </view>
+</view>

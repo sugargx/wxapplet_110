@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/before/before_first",
+    "pages/before/befor_second/before_second",
+    "pages/person/person",
+    "pages/logs/logs",
+    "pages/tiezi/tiezi",
+    "pages/article/article",
+    "pages/info/info",
+    "pages/form/form"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/tiezi/tiezi",
+        "text": "社区",
+        "iconPath": "images/icon-talk.png",
+        "selectedIconPath": "images/icon-talk-d.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "SOS",
+        "iconPath": "images/icon-alert.png",
+        "selectedIconPath": "images/icon-alert-d.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "images/icon-person.png",
+        "selectedIconPath": "images/icon-person-d.png"
+      }
+    ]
+  }
+}

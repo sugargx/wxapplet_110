@@ -1,0 +1,42 @@
+/* pages/form/form.wxss */
+.container{
+  padding: 0!important;
+}
+.font_second{
+  font-size: 35rpx;
+  line-height: 1.5em;
+  color: #999;
+  padding: 10rpx;
+  border-bottom: 1px #999 solid;
+}
+.box{
+  width: 90%;
+}
+.photo{
+  margin: 80rpx auto;
+}
+.cellbox_1{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 50rpx;
+}
+.cellbox_1 .btn{
+  margin-top: 10rpx;
+  float:right;
+  width: 300rpx;
+  height: 70rpx;
+}
+
+.description{
+  margin: 30rpx auto;
+}
+.cellbox_2{
+  padding: 0 50rpx;
+  
+}
+.cellbox_2 textarea{
+  border: 1px solid gainsboro;
+}
+.btn{
+  margin-top: 20rpx;
+}

@@ -1,0 +1,39 @@
+Page{
+  background-color: #F8F8F8;
+}
+view{
+  max-width: 720rpx;
+  margin: 0 auto;
+}
+.font{
+  margin-top: 200rpx;
+  text-align: center;
+}
+.button_apply,
+.button_login{
+  margin-top: 30rpx;
+  border-radius: 80%;
+}
+.font_first{
+  font-weight: bolder;
+  line-height: 1.5em;
+  font-size: 50rpx;
+  margin-bottom: 20rpx;
+}
+.font_second{
+  font-size: 35rpx;
+  line-height: 1.5em;
+  color: #999;
+  padding: 10rpx;
+}
+.font_third{
+  font-size: 40rpx;
+  line-height: 1,5em;
+  font-weight: 200rpx;
+  margin-top: 10rpx;
+}
+.button{
+  margin-top: 200rpx;
+  width: 50%;
+}
+

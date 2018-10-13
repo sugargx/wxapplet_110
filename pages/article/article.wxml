@@ -1,0 +1,20 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">这是新闻大标题</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title">作者 发布时间</view> 
+                <view class="weui-article__section">
+                    <!-- <view class="weui-article__h3">1.1 节标题</view> -->
+                    <view class="weui-article__p">
+                       “安全工作”是一项长期的工作,来不得半点马虎和松懈,更不能摆架势,走过场,虚张声势.假如有人拿安全工作当儿戏,最终必将受到应有的惩罚.我们在实际工作中,必须做到上下一心,团结一致.坚决不能搞上有政策下有对策,传达执行两张皮的做法,更不能一味的为了应付检查而惶惶不可终日,严重影响正常的工作和生活,那样最终的结果就是害人害己.我们应该把安全预防工作落到实处,形成制度化,做到人人监督,各负其责,广泛掀起违章可耻、守纪光荣的良好氛围,真正做到领导在与不在一个样,检查不检查一个样,一切从实际工作出发,把安全工作渗透到每个角落.
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../images/new2.jpg" mode="aspectFit" style="height: 180px; "mode='widthFix'/>
+                        <image class="weui-article__img" src="../../images/new1.jpg" mode='widthFix' style="height: 180px" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

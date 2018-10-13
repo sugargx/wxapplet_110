@@ -1,0 +1,111 @@
+<view class='page'>
+    <!--search  -->
+    <view class="page__bd">
+      <view class="weui-search-bar">
+        <view class="weui-search-bar__form">
+          <view class="weui-search-bar__box">
+            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+            <input type="text" class="weui-search-bar__input" placeholder="淄博市张店区开展安全教育培训" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+            <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+              <icon type="clear" size="14"></icon>
+            </view>
+          </view>
+          <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+            <icon class="weui-icon-search" type="search" size="14"></icon>
+            <view class="weui-search-bar__text">淄博市张店区开展安全教育培训</view>
+          </label>
+        </view>
+        <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+      </view>
+      <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view>实时搜索文本</view>
+          </view>
+        </navigator>
+        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view>实时搜索文本</view>
+          </view>
+        </navigator>
+        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view>实时搜索文本</view>
+          </view>
+        </navigator>
+        <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view>实时搜索文本</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+
+    <!-- slider  -->
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <!--图标菜单  -->
+    <view class='icon'>
+      <view>
+        <image src='../../images/发布.png' mode='widthFix'></image>
+        <span>发布</span>
+      </view>
+      <view>
+        <image src='../../images/管理.png' mode='widthFix'></image>
+        <span>管理</span>
+      </view>
+      <view>
+        <image src='../../images/签到.png' mode='widthFix'></image>
+        <span>签到</span>
+      </view>
+      <view>
+        <image src='../../images/报警方式.png' mode='widthFix'></image>
+        <span>警方</span>
+      </view>
+    </view>
+
+    <!--新闻列表  -->
+    <view class='page-list'>
+      <view class='page'>
+      <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__bd">
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="../../images/new1.jpg"/>
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg" bindtap='goto'>
+                        <view class="weui-media-box__title">安全为民</view>
+                        <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                    </view>
+                </navigator>
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="../../images/new2.jpg" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">安全是永恒的旋律</view>
+                        <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                    </view>
+                </navigator>
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="../../images/new1.jpg"/>
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">安全为民</view>
+                        <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    </view>
+  </view>
+</view>
